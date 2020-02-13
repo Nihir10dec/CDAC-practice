@@ -14,6 +14,7 @@ void sort(struct students s[] , int n)
 	{
 		for(j=0;j<n-1-i;j++)
 		{
+			//if(strcmpi(s[j].name,s[j+1].name)>0)
 			if(s[j].total<s[j+1].total)
 			{
 				t = s[j+1];
