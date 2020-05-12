@@ -59,3 +59,7 @@ function checknos(){
         document.getElementById("warn2").innerHTML = "";
     }
 }
+
+function rand(){
+    document.getElementById("rand").innerHTML = Math.floor(Math.random()*100);
+}
